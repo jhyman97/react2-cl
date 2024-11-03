@@ -1,0 +1,33 @@
+/**
+Item Flex
+**/
+.item{
+    flex: 25%;
+}
+
+#item-area{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+
+#side{
+    flex: 1;
+    
+}
+
+#side img{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    border-right: none;
+}
+
+#content{
+    display: flex;
+}
+
+#label{
+    margin-left: 20px;
+}
